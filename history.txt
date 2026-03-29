@@ -1,0 +1,236 @@
+[Wed Mar 25 16:27:54 2026] LUCIFER -> Registered a new account
+[Wed Mar 25 16:28:43 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 16:28:51 2026] LUCIFER -> Used Encryption tool
+[Wed Mar 25 16:29:10 2026] LUCIFER -> Used Decryption tool
+[Wed Mar 25 16:30:00 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 16:30:52 2026] AADI -> Registered a new account
+[Wed Mar 25 16:31:26 2026] AADI -> Logged in to the system
+[Wed Mar 25 16:31:28 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 16:35:37 2026] LUCIFER -> Logged out
+[Wed Mar 25 16:36:06 2026] AADI -> Logged out
+[Wed Mar 25 18:12:51 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 18:12:54 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 18:35:47 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 18:35:50 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 18:40:11 2026] AADI -> Logged in to the system
+[Wed Mar 25 18:40:13 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:44:40 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:46:08 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 18:46:10 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 18:46:26 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:46:33 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:46:59 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:51:47 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:52:43 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 18:52:48 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 19:10:47 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 19:10:49 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 19:37:04 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 19:37:07 2026] LUCIFER -> Used Decryption tool
+[Wed Mar 25 19:38:24 2026] LUCIFER -> Used Encryption tool
+[Wed Mar 25 19:43:35 2026] LUCIFER -> Used Decryption tool
+[Wed Mar 25 21:00:08 2026] MRIDULA -> Registered a new account
+[Wed Mar 25 21:01:07 2026] 251210070@nitdelhi.ac.in -> Reset their password
+[Wed Mar 25 21:01:21 2026] MRIDULA -> Logged in to the system
+[Wed Mar 25 21:02:08 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 21:02:27 2026] AADI -> Logged in to the system
+[Wed Mar 25 21:02:29 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 21:02:35 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:03:08 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 21:03:34 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 21:09:08 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 21:09:10 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 21:20:05 2026] AADI -> Logged in to the system
+[Wed Mar 25 21:20:07 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 21:20:46 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 21:20:48 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 21:27:56 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 21:27:58 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 21:28:38 2026] AADI -> Logged in to the system
+[Wed Mar 25 21:28:41 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 21:29:40 2026] MRIDULA -> Logged in to the system
+[Wed Mar 25 21:29:42 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:29:47 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:29:56 2026] MRIDULA -> Logged out
+[Wed Mar 25 21:30:17 2026] MRIDULA -> Logged in to the system
+[Wed Mar 25 21:30:18 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:37:05 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 21:37:07 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 21:37:38 2026] MRIDULA -> Logged in to the system
+[Wed Mar 25 21:37:40 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:41:23 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:43:42 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 21:43:44 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 21:44:40 2026] MRIDULA -> Logged in to the system
+[Wed Mar 25 21:44:42 2026] MRIDULA -> Used Secure Live Chat
+[Wed Mar 25 21:45:47 2026] AADI -> Logged in to the system
+[Wed Mar 25 21:45:48 2026] AADI -> Used Secure Live Chat
+[Wed Mar 25 22:31:15 2026] LUCIFER -> Logged in to the system
+[Wed Mar 25 22:31:17 2026] LUCIFER -> Used Secure Live Chat
+[Wed Mar 25 22:34:16 2026] MRIDULA -> Logged in to the system
+[Wed Mar 25 22:34:18 2026] MRIDULA -> Used Secure Live Chat
+[Thu Mar 26 14:19:08 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 14:19:42 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 14:28:53 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 15:09:11 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 15:09:15 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 15:43:35 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 15:43:36 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 15:55:37 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 15:55:47 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:05:35 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:12:27 2026] LUCIFER -> Logged out
+[Thu Mar 26 16:12:54 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 16:12:56 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:14:31 2026] AADI -> Logged in to the system
+[Thu Mar 26 16:14:32 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 16:15:18 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 16:18:03 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 16:18:37 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 16:19:19 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 16:28:29 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 16:28:34 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:31:00 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:32:32 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:33:18 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:35:38 2026] dd -> Registered a new account
+[Thu Mar 26 16:35:53 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 16:35:54 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:36:26 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 16:39:48 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 20:48:34 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 20:48:36 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 20:49:35 2026] AADI -> Logged in to the system
+[Thu Mar 26 20:49:37 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 20:57:48 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 20:57:51 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:01:57 2026] LUCIFER -> Logged out
+[Thu Mar 26 21:02:52 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:02:55 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:07:58 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:08:02 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:14:45 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:14:47 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:16:04 2026] AADI -> Logged in to the system
+[Thu Mar 26 21:16:05 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 21:21:01 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:21:02 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:33:35 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:33:36 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:37:59 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:38:01 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:39:08 2026] AADI -> Logged in to the system
+[Thu Mar 26 21:39:10 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 21:39:30 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:39:31 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:46:18 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:46:20 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:50:34 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:50:36 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:56:33 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 21:56:34 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 21:57:22 2026] AADI -> Logged in to the system
+[Thu Mar 26 21:57:26 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 21:57:56 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:16:38 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:22:01 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 22:25:29 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:25:50 2026] AADI -> Used Encryption tool
+[Thu Mar 26 22:26:05 2026] AADI -> Used Decryption tool
+[Thu Mar 26 22:27:24 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 22:27:53 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:29:27 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:33:41 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 22:33:43 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 22:34:25 2026] AADI -> Logged in to the system
+[Thu Mar 26 22:34:26 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:35:04 2026] AADI -> Used Encryption tool
+[Thu Mar 26 22:35:30 2026] AADI -> Used Decryption tool
+[Thu Mar 26 22:36:32 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 22:37:52 2026] AADI -> Logged out
+[Thu Mar 26 22:38:06 2026] LUCIFER -> Logged out
+[Thu Mar 26 22:54:45 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 22:54:47 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 22:55:39 2026] MRIDULA -> Logged in to the system
+[Thu Mar 26 22:55:45 2026] MRIDULA -> Used Secure Live Chat
+[Thu Mar 26 22:59:21 2026] AADI -> Logged in to the system
+[Thu Mar 26 22:59:23 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 23:17:37 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 23:17:47 2026] LUCIFER -> Used Secure Live Chat
+[Thu Mar 26 23:20:21 2026] MRIDULA -> Logged in to the system
+[Thu Mar 26 23:20:22 2026] MRIDULA -> Used Secure Live Chat
+[Thu Mar 26 23:21:16 2026] AADI -> Logged in to the system
+[Thu Mar 26 23:21:18 2026] AADI -> Used Secure Live Chat
+[Thu Mar 26 23:27:24 2026] LUCIFER -> Logged out
+[Thu Mar 26 23:27:46 2026] AADI -> Used Encryption tool
+[Thu Mar 26 23:28:54 2026] AADI -> Used Decryption tool
+[Thu Mar 26 23:29:02 2026] AADI -> Used Encryption tool
+[Thu Mar 26 23:30:41 2026] AADI -> Used Encryption tool
+[Thu Mar 26 23:35:50 2026] AADI -> Logged out
+[Thu Mar 26 23:36:20 2026] LUCIFER -> Logged in to the system
+[Thu Mar 26 23:36:23 2026] LUCIFER -> Used Encryption tool
+[Fri Mar 27 01:15:51 2026] LUCIFER -> Used Decryption tool
+[Fri Mar 27 01:16:03 2026] LUCIFER -> Used Encryption tool
+[Fri Mar 27 01:20:28 2026] LUCIFER -> Used Decryption tool
+[Fri Mar 27 01:20:59 2026] LUCIFER -> Used Encryption tool
+[Fri Mar 27 01:33:55 2026] LUCIFER -> Logged out
+[Fri Mar 27 01:35:58 2026] king -> Registered a new account
+[Fri Mar 27 01:37:40 2026] LUCIFER -> Logged in to the system
+[Fri Mar 27 01:38:05 2026] LUCIFER -> Used Decryption tool
+[Fri Mar 27 23:43:59 2026] LUCIFER -> Logged in to the system
+[Fri Mar 27 23:44:04 2026] LUCIFER -> Used Secure Live Chat
+[Fri Mar 27 23:44:38 2026] AADI -> Logged in to the system
+[Fri Mar 27 23:44:40 2026] AADI -> Used Secure Live Chat
+[Sat Mar 28 00:14:18 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 00:14:30 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 00:28:23 2026] LUCIFER -> Logged out
+[Sat Mar 28 00:29:02 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 00:29:03 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 00:31:44 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 00:31:45 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 00:40:35 2026] LUCIFER -> Logged out
+[Sat Mar 28 00:41:40 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 00:41:42 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 00:50:23 2026] LUCIFER -> Logged out
+[Sat Mar 28 00:50:47 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 00:50:49 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 01:01:05 2026] LUCIFER -> Logged out
+[Sat Mar 28 01:01:26 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 01:01:28 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 01:08:40 2026] LUCIFER -> Logged out
+[Sat Mar 28 01:11:28 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 01:11:30 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 01:27:13 2026] LUCIFER -> Logged out
+[Sat Mar 28 01:27:51 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 01:27:53 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 03:40:44 2026] LUCIFER -> Logged out
+[Sat Mar 28 03:42:22 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 03:42:26 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 03:46:24 2026] MRIDULA -> Logged in to the system
+[Sat Mar 28 03:46:28 2026] MRIDULA -> Used Secure Live Chat
+[Sat Mar 28 04:07:39 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 04:09:09 2026] LUCIFER -> Logged out
+[Sat Mar 28 04:16:31 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 04:17:34 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 04:22:40 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 04:22:47 2026] LUCIFER -> Logged out
+[Sat Mar 28 04:26:06 2026] LUCIFER -> Logged in to the system
+[Sat Mar 28 04:26:14 2026] LUCIFER -> Used Secure Live Chat
+[Sat Mar 28 19:50:01 2026] LUCIFER -> Logged in to the system
+[Sun Mar 29 14:50:17 2026] LUCIFER -> Logged in to the system
+[Sun Mar 29 15:32:33 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 15:45:27 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 15:55:48 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 15:58:52 2026] LUCIFER -> Logged out
+[Sun Mar 29 15:59:07 2026] LUCIFER -> Logged in to the system
+[Sun Mar 29 15:59:16 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 16:00:32 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 16:02:24 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 16:20:55 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 16:43:59 2026] LUCIFER -> Logged in to the system
+[Sun Mar 29 16:44:01 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 16:53:10 2026] LUCIFER -> Logged in to the system
+[Sun Mar 29 16:53:32 2026] LUCIFER -> Used Secure Live Chat
+[Sun Mar 29 17:06:25 2026] LUCIFER -> Logged out
+[Sun Mar 29 17:07:03 2026] LUCIFER -> Logged in to the system
+[Sun Mar 29 17:07:09 2026] LUCIFER -> Used Secure Live Chat
