@@ -100,95 +100,7 @@ long long int power_mod(long long int base, long long int exp, long long int mod
     return res;
 }
 
-// --- FEATURE 3: DIFFIE HELLMAN DEMO ---
-void diffie_hellman_demo() {
-    system("cls");
-    printf("=========================================\n");
-    printf("||   DIFFIE-HELLMAN KEY EXCHANGE DEMO  ||\n");
-    printf("=========================================\n\n");
-    long long int P, G, a, b, A, B, secretA, secretB;
-
-    P = 23; 
-    G = 5;  
-
-    printf("\x1b[36m[*] Publicly Shared Variables (Visible to Hackers):\x1b[0m\n");
-    printf("    Prime Modulus (P) = %lld\n", P);
-    printf("    Base (G)          = %lld\n\n", G);
-
-    printf("[Host] Enter a secret Private Key (a): ");
-    if (scanf("%lld", &a) != 1) a = 4;
-    while (getchar() != '\n'); 
-
-    printf("[Peer] Enter a secret Private Key (b): ");
-    if (scanf("%lld", &b) != 1) b = 3;
-    while (getchar() != '\n'); 
-
-    A = power_mod(G, a, P);
-    B = power_mod(G, b, P);
-
-    printf("\n\x1b[33m[*] Generating Public Keys to send over the network...\x1b[0m\n");
-    printf("    Host calculates Public Key (A): %lld^%lld %% %lld = %lld\n", G, a, P, A);
-    printf("    Peer calculates Public Key (B): %lld^%lld %% %lld = %lld\n\n", G, b, P, B);
-
-    printf("\x1b[35m[*] Exchanging Keys and Calculating Shared Secret...\x1b[0m\n");
-    secretA = power_mod(B, a, P);
-    secretB = power_mod(A, b, P);
-
-    printf("    Host calculates Secret: %lld^%lld %% %lld = %lld\n", B, a, P, secretA);
-    printf("    Peer calculates Secret: %lld^%lld %% %lld = %lld\n\n", A, b, P, secretB);
-
-    if (secretA == secretB) {
-        printf("\x1b[32m[+] SUCCESS! Both parties securely generated the exact same Shift Key: %lld\x1b[0m\n", secretA);
-        printf("    This key can now be used for the Caesar Cipher without ever being transmitted!\n");
-    }
-    
-    printf("\nPress any key to return...");
-    menu_getch();
-}
-
-// --- FEATURE 4: RUN-LENGTH ENCODING (RLE) DEMO ---
-void rle_demo() {
-    system("cls");
-    printf("=========================================\n");
-    printf("||   RUN-LENGTH ENCODING (COMPRESSION) ||\n");
-    printf("=========================================\n\n");
-    printf("[i] RLE compresses repeated characters (e.g. AAAA -> 4A).\n");
-    printf("[i] Note: Not used on binary files (PDF/PNG) as they lack repeating byte sequences.\n\n");
-    
-    char input[1024];
-    printf("Enter a string with repeating characters: ");
-    fgets(input, sizeof(input), stdin);
-    input[strcspn(input, "\n")] = 0;
-    
-    int len = strlen(input);
-    if (len == 0) return;
-
-    char compressed[2048] = {0};
-    int c_idx = 0;
-    
-    for (int i = 0; i < len; i++) {
-        int count = 1;
-        while (i < len - 1 && input[i] == input[i + 1]) {
-            count++;
-            i++;
-        }
-        c_idx += sprintf(&compressed[c_idx], "%d%c", count, input[i]);
-    }
-    
-    printf("\n\x1b[36m[+] Original Data:\x1b[0m   %s (Size: %d bytes)\n", input, len);
-    printf("\x1b[32m[+] Compressed Data:\x1b[0m %s (Size: %d bytes)\n\n", compressed, strlen(compressed));
-    
-    if (strlen(compressed) < len) {
-        printf("[!] Compression Successful: Saved %d bytes!\n", len - strlen(compressed));
-    } else {
-        printf("[!] Negative Compression: RLE expanded the data (no repeating patterns).\n");
-    }
-    
-    printf("\nPress any key to return...");
-    menu_getch();
-}
-
-// --- FEATURE 7: ENCRYPTED STEGANOGRAPHY DEMO (DYNAMIC HEADER PATCH) ---
+// --- FEATURE 5: ENCRYPTED STEGANOGRAPHY DEMO (DYNAMIC HEADER PATCH) ---
 void steganography_demo() {
     system("cls");
     printf("=========================================\n");
@@ -349,7 +261,7 @@ void update_window_title() {
 void update_online_top() {
     EnterCriticalSection(&console_mutex);
     printf("\x1b[s"); 
-    printf("\x1b[1;55H"); 
+    printf("\x1b[1;75H"); 
     if (is_host) {
         printf("\x1b[1;32m[ Live Online: %d ]\x1b[0m\x1b[K", client_count + 1);
     } else {
@@ -363,7 +275,7 @@ void update_online_top() {
 void update_typing_top() {
     EnterCriticalSection(&console_mutex);
     printf("\x1b[s"); 
-    printf("\x1b[2;55H"); 
+    printf("\x1b[2;75H"); 
     if (time(NULL) < typing_expiry) {
         printf("\x1b[90m[ %s is typing... ]\x1b[0m\x1b[K", typing_user);
     } else {
@@ -441,7 +353,7 @@ DWORD WINAPI FileTransferThread(LPVOID lpParam) {
     LeaveCriticalSection(&console_mutex);
 
     cancel_transfer = 0;
-    unsigned char fbuf[200]; // Increased buffer for fast transfer
+    unsigned char fbuf[200]; 
     int b_read;
     
     while ((b_read = fread(fbuf, 1, sizeof(fbuf), fp)) > 0 && chat_active && !cancel_transfer) {
@@ -449,7 +361,7 @@ DWORD WINAPI FileTransferThread(LPVOID lpParam) {
         int percent = (total_bytes > 0) ? (int)((sent_bytes * 100) / total_bytes) : 100;
 
         EnterCriticalSection(&console_mutex);
-        printf("\x1b[s\x1b[3;55H\x1b[36m[ Uploading: %3d%% ]\x1b[0m\x1b[K\x1b[u", percent);
+        printf("\x1b[s\x1b[3;75H\x1b[36m[ Uploading: %3d%% ]\x1b[0m\x1b[K\x1b[u", percent);
         fflush(stdout);
         LeaveCriticalSection(&console_mutex);
 
@@ -459,7 +371,7 @@ DWORD WINAPI FileTransferThread(LPVOID lpParam) {
         }
 
         char file_packet[1000];
-        sprintf(file_packet, "CIPHERCORE|/file %s|%s<END>", filename, hex_chunk); // Tag added!
+        sprintf(file_packet, "CIPHERCORE|/file %s|%s<END>", filename, hex_chunk); 
         
         char enc_packet[2500];
         string_to_hex(file_packet, enc_packet);
@@ -473,12 +385,12 @@ DWORD WINAPI FileTransferThread(LPVOID lpParam) {
             send(current_socket, enc_packet, strlen(enc_packet), 0);
         }
         
-        Sleep(20); // The accumulator protects us, so we can send data VERY fast now!
+        Sleep(20); 
     }
     fclose(fp);
 
     EnterCriticalSection(&console_mutex);
-    printf("\x1b[s\x1b[3;55H\x1b[K\x1b[u"); 
+    printf("\x1b[s\x1b[3;75H\x1b[K\x1b[u"); 
     fflush(stdout);
     LeaveCriticalSection(&console_mutex);
 
@@ -541,7 +453,7 @@ DWORD WINAPI HostClientHandler(LPVOID lpParam) {
     SOCKET client_sock = (SOCKET)lpParam;
     char buffer[8192];
     char temp_buffer[8192];
-    char persistent_hex[32768] = {0}; // THE HOLDING TANK
+    char persistent_hex[32768] = {0}; 
     int bytes_received;
     char mention_tag[60];
     sprintf(mention_tag, "@%s", my_alias);
@@ -567,7 +479,6 @@ DWORD WINAPI HostClientHandler(LPVOID lpParam) {
                 memset(persistent_hex, 0, sizeof(persistent_hex)); // Panic flush to prevent crash
             }
 
-            // "3C454E443E" is the exact Hex code for "<END>"
             char *end_hex = strstr(persistent_hex, "3C454E443E"); 
             while (end_hex != NULL) {
                 *end_hex = '\0'; 
@@ -774,7 +685,6 @@ DWORD WINAPI HostClientHandler(LPVOID lpParam) {
                     }
                 }
                 
-                // Shift the holding tank memory
                 memmove(persistent_hex, end_hex + 10, strlen(end_hex + 10) + 1);
                 end_hex = strstr(persistent_hex, "3C454E443E");
             }
@@ -914,7 +824,7 @@ DWORD WINAPI HostAcceptor(LPVOID lpParam) {
 
                 if (strncmp(decoded_auth, "CIPHERCORE|/alias ", 18) == 0) {
                     char *end_tag = strstr(decoded_auth, "<END>");
-                    if (end_tag) *end_tag = '\0'; // Strip the end tag for pure string extraction
+                    if (end_tag) *end_tag = '\0'; 
                     
                     strncpy(new_alias, decoded_auth + 18, 49);
                     new_alias[49] = '\0';
@@ -996,7 +906,7 @@ DWORD WINAPI HostAcceptor(LPVOID lpParam) {
 DWORD WINAPI PeerReceiver(LPVOID lpParam) {
     char buffer[8192];
     char temp_buffer[8192];
-    char persistent_hex[32768] = {0}; // THE HOLDING TANK
+    char persistent_hex[32768] = {0}; 
     int bytes_received;
     char mention_tag[60];
     sprintf(mention_tag, "@%s", my_alias);
@@ -1979,9 +1889,7 @@ int main() {
                     printf("||  2. Decrypt a message               ||\n");
                     printf("||  3. Secure Live Chat (E2EE)         ||\n");
                     printf("||  4. Logout                          ||\n");
-                    printf("||  5. Diffie-Hellman Key Demo         ||\n");
-                    printf("||  6. Run-Length Compress (RLE) Demo  ||\n");
-                    printf("||  7. Encrypted LSB Steganography     ||\n");
+                    printf("||  5. Encrypted LSB Steganography     ||\n");
                     printf("=========================================\n");
                     printf("Enter choice: ");
                     
@@ -1994,20 +1902,12 @@ int main() {
                         printf("\nLogging out...\n"); 
                         break; 
                     }
-                    if (choice < 1 || choice > 7) {
+                    if (choice < 1 || choice > 5) {
                         printf("\n[-] Invalid choice! Press any key to try again...");
                         menu_getch(); continue; 
                     }
                     
                     if (choice == 5) {
-                        diffie_hellman_demo(); continue;
-                    }
-
-                    if (choice == 6) {
-                        rle_demo(); continue;
-                    }
-                    
-                    if (choice == 7) {
                         steganography_demo(); continue;
                     }
 
